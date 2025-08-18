@@ -38,6 +38,7 @@ dependencies = [
     "langsmith<0.4",
     "rich>=13.0.0",
     "toml",
+    "dspy",
     ]
 
 [project.optional-dependencies]
@@ -59,7 +60,7 @@ ui = [
 chemgraph = "ui.cli:main"
 
 [tool.setuptools.packages.find]
-where = ["src/"]
+where = ["src/", "claimspy"]
 
 [tool.ruff]
 line-length = 88  # Match Black's default (adjust as needed)
