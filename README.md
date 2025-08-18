@@ -1,5 +1,9 @@
 # ChemGraph
 
+> **Note:** A DSPy-based rebranding of this project is available in the
+> new `claimspy` folder. ClaimSpy demonstrates how core ideas of ChemGraph
+> can be implemented using the [DSPy](https://dspy.ai/) framework.
+
 <details>
   <summary><strong>Overview</strong></summary>
 
